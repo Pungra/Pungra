@@ -154,22 +154,27 @@
           </div>
           <!-- .end .wrap -->
         </section>
-        <section class="bg-black">
-          <span class="background" style="background-image:url('https://source.unsplash.com/p3UCTiZIU6M/')"></span>
-          <!--.wrap = container (width: 90%) -->
-          <div class="wrap size-70 aligncenter">
-            <h2>Planning a vacation?</h2>
-            <p class="text-intro">Hidden attractions and unusual things to do.</p>
-            <form action="/" method="post" class="bg-trans-dark">
-              <ul class="flexblock">
-                <li><input type="email" tabindex="1" name="email" placeholder="your@email.com" required></li>
-                <li><input type="password" tabindex="2" name="password" placeholder="Password" required></li>
-                <li><button type="submit" class="radius" tabindex="3" title="Sign Up">Sign Up &rsaquo;</button></li>
-              </ul>
-            </form>
-          </div>
-          <!-- .end .wrap -->
-        </section>
+<div id="revue-embed">
+  <form action="http://updates.pungra.fit/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+  <div class="revue-form-group">
+    <label for="member_email">Email address</label>
+    <input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email">
+  </div>
+  <div class="revue-form-group">
+    <label for="member_first_name">First name <span class="optional">(Optional)</span></label>
+    <input class="revue-form-field" placeholder="First name... (Optional)" type="text" name="member[first_name]" id="member_first_name">
+  </div>
+  <div class="revue-form-group">
+    <label for="member_last_name">Last name <span class="optional">(Optional)</span></label>
+    <input class="revue-form-field" placeholder="Last name... (Optional)" type="text" name="member[last_name]" id="member_last_name">
+  </div>
+  <div class="revue-form-actions">
+    <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
+  </div>
+  <div class="revue-form-footer">By subscribing, you agree with Revue’s <a target="_blank" href="https://www.getrevue.co/terms">Terms</a> and <a target="_blank" href="https://www.getrevue.co/privacy">Privacy Policy</a>.</div>
+  </form>
+</div>
+
   <section class="aligncenter">
           <!-- .wrap = container (width: 90%) -->
           <div class="wrap">
